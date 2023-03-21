@@ -23,7 +23,7 @@ end
 
 RSpec.describe OSC do
 
-  all_measures = Dir.glob("./measures/*")
+  all_measures = Dir.glob("./measures/*/measure.rb")
 
   it "can test all the measures" do
     if !all_measures.empty?
