@@ -1,8 +1,7 @@
 
 OS:Version,
   {7e1bc7bb-88c5-4343-b880-7bd835e15d52}, !- Handle
-  3.5.1,                                  !- Version Identifier
-  rc2;                                    !- Prerelease Identifier
+  3.3.0;                                  !- Version Identifier
 
 OS:Site,
   {697a62e1-a931-4fa5-be87-378085382fb9}, !- Handle
