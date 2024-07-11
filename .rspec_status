@@ -1,4 +1,4 @@
-example_id                       | status | run_time               |
--------------------------------- | ------ | ---------------------- |
-./spec/run_measures_spec.rb[1:1] | passed | 0.00007 seconds        |
-./spec/run_models_spec.rb[1:1]   | passed | 4 minutes 17.7 seconds |
+example_id                       | status | run_time            |
+-------------------------------- | ------ | ------------------- |
+./spec/run_measures_spec.rb[1:1] | passed | 0.00012 seconds     |
+./spec/run_models_spec.rb[1:1]   | passed | 3 minutes 0 seconds |
