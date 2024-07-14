@@ -7,7 +7,7 @@ on:
 
 jobs:
   test_351x:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     steps:
     - name: Check out repository
       uses: actions/checkout@v2
@@ -15,8 +15,8 @@ jobs:
       run: |
         echo $(pwd)
         echo $(ls)
-        docker pull nrel/openstudio:3.5.1
-        docker run --name test --rm -d -t -v $(pwd):/work -w /work nrel/openstudio:3.5.1
+        docker pull nrel/openstudio:3.8.0
+        docker run --name test --rm -d -t -v $(pwd):/work -w /work nrel/openstudio:3.8.0
         docker exec -t test pwd
         docker exec -t test ls
         docker exec -t test bundle update
