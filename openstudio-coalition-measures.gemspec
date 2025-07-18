@@ -31,8 +31,8 @@ Gem::Specification.new do |s|
   s.add_development_dependency "parallel",       "~> 1.19"
 
   s.required_ruby_version = "~> 3.2.2"
-  s.add_development_dependency "openstudio-common-measures",    "~> 0.10.0"
-  s.add_development_dependency "openstudio-model-articulation", "~> 0.10.0"
+  s.add_development_dependency "openstudio-common-measures",    "~> 0.12.0"
+  s.add_development_dependency "openstudio-model-articulation", "~> 0.12.0"
 
   s.metadata["homepage_uri"]    = s.homepage
   s.metadata["source_code_uri"] = "#{s.homepage}/tree/v#{s.version}"
